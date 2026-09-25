@@ -1,1 +1,33 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1a2540, #090d16 60%);
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+canvas {
+  border: 3px solid #7ee7ff;
+  background: linear-gradient(#0d2338, #102f1e);
+  box-shadow: 0 0 20px rgba(126, 231, 255, 0.3);
+}
+
+.hud {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+} 
